@@ -111,8 +111,10 @@ a {
 }
 
 #place-holder-img {
-    width: calc(0.5 * 1280px);
-    height: calc(0.3 * 720px);
+    width: 100%;
+    height: auto;
+    min-width: calc(0.3 * 1280px);
+    min-height: calc(0.3 * 720px);
 }
 
 /* End of Hero Image */
