@@ -1,0 +1,178 @@
+html,
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+h4 {}
+
+div,
+header,
+h1,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    width: 7em;
+    height: 2em;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* First Section Dark Background Div */
+
+#first-section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-bottom: 3.5em;
+}
+
+/* Header Div */
+
+#header-section {
+    display: flex;
+    padding: 1em 0 0 12em;
+    margin-bottom: 3.5em;
+}
+
+#header-logo {
+    width: 35%;
+    margin: 0%;
+    font-size: 24px;
+}
+
+#header-links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 18px;
+    padding-left: 10%;
+    padding-right: 12em;
+}
+
+#header-links a {
+    color: #c8cbd0;
+    padding: 0 1em;
+    flex: 1 1 auto;
+}
+
+/* End of Header Div */
+
+/* Hero Text and Image Div */
+
+/* Hero Text */
+
+#hero-main-text-and-image {
+    display: flex;
+    padding: 1em 12em;
+    align-items: center;
+}
+
+#main-signup-hero-text {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-hero-text {
+    font-weight: 900;
+    flex: 1 1 auto;
+    font-size: 48px;
+    width: 80%;
+}
+
+#hero-paragraph-text {
+    flex: 1 1 auto;
+    font-size: 18px;
+    color: #c8cbd0;
+}
+
+#hero-signup-button {
+    margin-top: 1em;
+}
+
+/* End of Hero Text */
+
+/* Hero Image */
+
+#main-image {
+    margin: 2em 5em;
+}
+
+#place-holder-img {
+    width: calc(0.5 * 1280px);
+    height: calc(0.3 * 720px);
+}
+
+/* End of Hero Image */
+
+/* End of Hero Text and Image Div */
+
+/* End of First Section Dark Background Div */
+
+/* Second Section White Background Div */
+
+#second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+#h2-random-information {
+    margin: 2em 0;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Four Images and Subtexts Div*/
+
+#four-images-subtext-div {
+    display: flex;
+    width: 60%;
+}
+
+.subtext-and-img-div {
+    width: fit-content;
+    margin: auto;
+}
+
+.subtext-img {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    border: 4px solid #3882F6;
+    border-radius: 0.6em;
+}
+
+#four-images-subtext-div h3 {
+    flex: 1 1 auto;
+    color: #717374;
+    font-size: 18px;
+    font-weight: 400;
+    width: 10em;
+    text-align: center;
+    margin: 0;
+    margin-top: 0.4em;
+}
+
+/* End of Four Images and Subtexts Div*/
+
+/* End of Second Section White Background Div */
+
+/* Third Section Gray Background Div */
+
+#third-section {}
+
+/* End of Third Section Gray Background Div */
