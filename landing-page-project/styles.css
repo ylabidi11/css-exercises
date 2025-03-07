@@ -4,11 +4,11 @@ body {
     margin: 0;
 }
 
-h4 {}
-
 div,
 header,
 h1,
+h2,
+h3,
 p {
     padding: 0;
     margin: 0;
@@ -44,6 +44,7 @@ a {
     display: flex;
     padding: 1em 0 0 12em;
     margin-bottom: 3.5em;
+    justify-content: space-between;
 }
 
 #header-logo {
@@ -55,10 +56,10 @@ a {
 #header-links {
     padding: 0;
     margin: 0;
-    display: flex;
     font-size: 18px;
     padding-left: 10%;
-    padding-right: 12em;
+    align-self: flex-end;
+    margin-right: 15%;
 }
 
 #header-links a {
@@ -140,11 +141,12 @@ a {
 
 #four-images-subtext-div {
     display: flex;
-    width: 60%;
+    width: 45%;
 }
 
 .subtext-and-img-div {
-    width: fit-content;
+    display: flex;
+    flex-direction: column;
     margin: auto;
 }
 
@@ -154,10 +156,11 @@ a {
     margin: auto;
     border: 4px solid #3882F6;
     border-radius: 0.6em;
+    flex: 0 1 auto;
 }
 
 #four-images-subtext-div h3 {
-    flex: 1 1 auto;
+    flex: 0 1 auto;
     color: #717374;
     font-size: 18px;
     font-weight: 400;
@@ -173,6 +176,95 @@ a {
 
 /* Third Section Gray Background Div */
 
-#third-section {}
+#third-section {
+    background-color: #E5E7EB;
+    padding: 5em;
+}
+
+#div-holding-quote-and-author {
+    width: 45%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-p {
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#author-h3 {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+}
 
 /* End of Third Section Gray Background Div */
+
+/* Fourth Section White and Blue Subsection Div */
+
+#fourth-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Subsection Div */
+
+#fourth-section-subsection-div {
+    display: flex;
+    background-color: #3882F6;
+    margin: 6em 4em;
+    width: 60%;
+    border-radius: 8px;
+    color: white;
+}
+
+/* Div Holding H2 and P Elements */
+
+#h2-and-p-action-div {
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+    margin-left: 10em;
+    width: 60%;
+}
+
+#h2-call-to-action {
+    font-size: 28px;
+}
+
+#p-call-to-action {
+    font-size: 20px;
+    font-weight: 300;
+    color: #F9FAF8;
+}
+
+/* End of Div Holding H3 and P Elements */
+
+#footer-signup-button {
+    border: 2px solid white;
+    border-radius: 10px;
+    align-self: center;
+    font-size: 18px;
+    height: 2.3em;
+}
+
+/* End of Subsection Div */
+
+/* End of Fourth Section White and Blue Subsection Div */
+
+/* Fifth Section Dark Background Div */
+
+#fifth-section {
+    background-color: #1F2937;
+    height: 6em;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End of Fifth Section Dark Background Div */
