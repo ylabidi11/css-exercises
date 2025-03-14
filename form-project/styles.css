@@ -1,0 +1,103 @@
+body,
+html {
+  margin: 0;
+}
+
+#master {
+  display: flex;
+}
+
+#form-containing-div {
+  margin: auto;
+  height: 30em;
+}
+
+fieldset {
+  height: 100%;
+}
+
+#idk-atp {
+  margin: auto;
+}
+
+.names {
+  display: flex;
+}
+
+#img-logo-div {
+  position: relative;
+}
+
+#background {
+  height: 100vh !important;
+  min-width: 500px !important;
+  max-width: 40vw;
+}
+
+#logo {
+  position: fixed;
+  top: 15em;
+  height: 30%;
+}
+
+@media (min-width: 2101px) {
+  #logo {
+    right: 71vw;
+  }
+}
+
+@media (min-width: 1701px) and (max-width: 2100px) {
+  #logo {
+    right: 69vw;
+  }
+}
+
+@media (min-width: 1501px) and (max-width: 1700px) {
+  #logo {
+    right: 67.5vw;
+  }
+}
+
+@media (min-width: 1301px) and (max-width: 1500px) {
+  #logo {
+    right: 65vw;
+  }
+}
+
+@media (min-width: 1251px) and (max-width: 1300px) {
+  #logo {
+    right: 63vw;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1250px) {
+  #logo {
+    left: 3em;
+  }
+}
+
+@media (max-width: 1000px) {
+  #background {
+    height: 50vh !important;
+    width: 100vw !important;
+    max-width: none;
+  }
+
+  #logo {
+    top: 2em;
+    left: 7.5em;
+  }
+}
+
+input {
+  border: 2px solid lightgray;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid blue;
+}
