@@ -91,13 +91,21 @@ fieldset {
 
 input {
   border: 2px solid lightgray;
-}
-
-input:invalid {
-  border: 2px solid red;
+  outline: none;
 }
 
 input:focus {
   outline: none;
-  border: 2px solid blue;
+  border: 2px solid black;
+  background-color: none;
+}
+
+.invalidity {
+  border-color: #e73535;
+  background-color: #efc4c4;
+}
+
+.validity {
+  border-color: #23e223;
+  background-color: #d0e6d0;
 }
