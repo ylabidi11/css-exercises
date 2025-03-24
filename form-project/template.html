@@ -2,64 +2,84 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-  <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <div id="master">
-    <div id="img-logo-div">
-      <img src="black-background.jpg" alt="background" id="background">
-      <img src="logo.png" alt="logo" id="logo">
+    <div id="master">
+        <div id="img-logo-div">
+            <img src="black-background.jpg" alt="background" id="background">
+            <img src="logo.png" alt="logo" id="logo">
+        </div>
+
+        <div id="form-containing-div">
+            <form action="" method="post" id="form" novalidate>
+                <fieldset>
+                    <legend>Let's do this!</legend>
+                    <div id="idek-atp">
+                        <div class="names">
+                            <div class="flexed">
+                                <span id="span-1"></span>
+                                <label for="first-name">
+                                    FIRST NAME:
+                                </label>
+                                <input type="text" name="first-name" id="first-name">
+                            </div>
+                            <div class="flexed">
+                                <span id="span-2"></span>
+                                <label for="last-name">
+                                    LAST NAME:
+                                </label>
+                                <input type="text" name="last-name" id="last-name">
+                            </div>
+                        </div>
+                        <div class="email-phone-number">
+                            <div class="flexed">
+                                <span id="span-3"></span>
+                                <label for="email">
+                                    EMAIL:
+                                </label>
+                                <input type="email" name="email" id="email">
+                            </div>
+                            <div class="flexed">
+                                <span id="span-4"></span>
+                                <label for="phone">
+                                    PHONE NUMBER:
+                                </label>
+                                <input type="tel" name="phone" id="phone"
+                                    pattern="[+][0-9]([0-9])?([0-9])?-([0-9]{3})-[0-9]{3}-[0-9]{4}"
+                                    placeholder="+x-xxx-xxx-xxxx">
+                            </div>
+                        </div>
+                        <div class="passwords">
+                            <div class="flexed">
+                                <span id="span-5"></span>
+                                <label for="password">
+                                    PASSWORD:
+                                </label>
+                                <input type="password" name="password" id="password">
+                            </div>
+                            <div class="flexed">
+                                <span id="span-6"></span>
+                                <label for="confirm">
+                                    CONFIRM PASSWORD:
+                                </label>
+                                <input type="password" name="confirm" id="confirm">
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <button type="submit">Create Account</button>
+            </form>
+        </div>
+
     </div>
 
-    <div id="form-containing-div">
-      <form action="" method="post" id="form">
-        <fieldset>
-          <legend>Let's do this!</legend>
-          <div id="idek-atp">
-            <div class="names">
-              <label for="first-name">
-                FIRST NAME:
-              </label>
-              <input type="text" name="first-name" id="first-name">
-              <label for="last-name">
-                LAST NAME:
-              </label>
-              <input type="text" name="last-name" id="last-name">
-            </div>
-            <div class="email-phone-number">
-              <label for="email">
-                EMAIL:
-              </label>
-              <input type="email" name="email" id="email">
-              <label for="phone">
-                PHONE NUMBER:
-              </label>
-              <input type="text" name="phone" id="phone">
-            </div>
-            <div class="passwords">
-              <label for="password">
-                PASSWORD:
-              </label>
-              <input type="password" name="password" id="password">
-              <label for="confirm">
-                CONFIRM PASSWORD:
-              </label>
-              <input type="password" name="confirm" id="confirm">
-            </div>
-          </div>
-        </fieldset>
-        <button type="submit">Create Account</button>
-      </form>
-    </div>
-
-  </div>
-
-  <script src="index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

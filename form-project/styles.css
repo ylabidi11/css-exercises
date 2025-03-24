@@ -20,7 +20,7 @@ fieldset {
   margin: auto;
 }
 
-.names {
+.names, .email-phone-number, .passwords {
   display: flex;
 }
 
@@ -101,11 +101,11 @@ input:focus {
 }
 
 .invalidity {
-  border-color: #e73535;
+  border: 2px solid #e73535;
   background-color: #efc4c4;
 }
 
 .validity {
-  border-color: #23e223;
+  border: 2px solid #23e223;
   background-color: #d0e6d0;
 }
